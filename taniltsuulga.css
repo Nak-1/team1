@@ -1,0 +1,93 @@
+.introduction {
+  background: rgba(231, 241, 248, 1);
+  width: 100vw;
+  height: 100vh;
+}
+.title {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100vw;
+  height: 50px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40.635px;
+  line-height: 50px;
+  text-align: center;
+  color: #3c4761;
+}
+.secondtitle {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100vw;
+  height: 28px;
+  font-family: "Titillium Web";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18.2857px;
+  line-height: 28px;
+  text-align: center;
+  color: #3c4761;
+}
+.img {
+  height: 200px;
+  width: 200px;
+  left: -6771px;
+  top: 1464px;
+  border-radius: 100px;
+}
+.names {
+  width: 190px;
+  height: 37px;
+  font-family: "Titillium Web";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 37px;
+  color: #27283d;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.job {
+  width: 146px;
+  height: 24px;
+  font-family: "Titillium Web";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #30bae7;
+  margin: 15px;
+}
+.mini-introduction {
+  width: 191px;
+  height: 120px;
+  font-family: "Titillium Web";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #3c4761;
+}
+.row1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 10px;
+}
+.row2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 10px;
+}
+.contant {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
