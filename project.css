@@ -1,0 +1,95 @@
+body{
+    margin: 0;
+}
+.header{
+    position: absolute;
+    height: 596.01px;
+    width: 100vw;
+    background: #59007B;
+}
+.logo{
+    font-family: 'Satisfy', cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin-top: 57.71px;
+    margin-left: 212px;
+width: 116.4px;
+height: 36.29px;
+font-size: 40px;
+color: #FFFFFF;
+background: #59007B;
+}   
+.home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+width: 120px;
+height: 32px;
+
+background: #FFFFFF;
+}
+.members-container{
+    justify-content: flex-end;
+    position: absolute;
+    top: 66px;
+    right: 110px;
+    display: flex;
+    flex-direction: row;
+    gap: 30px 30px;
+}
+.members{
+    display: flex;
+    justify-content: center;
+width: 130px;
+height: 24px;
+
+font-family: 'Titillium Web';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+text-transform: uppercase;
+
+color: #FFFFFF;
+background-color: #59007B;
+border-color: #59007B;
+}
+.welcome-1{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 217px;
+    left: 315px;
+width: 811px;
+height: 102px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 42.1529px;
+line-height: 51px;
+text-align: center;
+
+color: #F7F3EA;
+}
+.welcome-2{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 402px;
+    left: 634px;
+width: 173px;
+height: 27px;
+
+font-family: 'Titillium Web';
+font-style: normal;
+font-weight: 700;
+font-size: 18.0002px;
+line-height: 27px;
+
+color: #FFFFFF;
+background: #EB7D4B;
+}
+
