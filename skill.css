@@ -1,7 +1,4 @@
-body {
-    position: absolute;
-    top: 7vh;
-  }
+
   body {
     margin: 0;
   }
@@ -10,19 +7,20 @@ body {
     width: 100vw;
     background-color: white;
     display: flex;
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
+    justify-content: center;
+    align-items: center;
   }
   .navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 150px;
     height: 100vh;
     width: 50vw;
     background-color: white;
   }
-  .text {
-    position: absolute;
-    left: 1300px;
-    top: 50px;
+  .text{
+
   }
   .progressContainer2 {
     height: 8px;
@@ -93,7 +91,4 @@ body {
     justify-content: space-between;
   }
 .photo{
-    position: absolute;
-    left:100px;
-    top:100px;
 }
