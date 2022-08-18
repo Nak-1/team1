@@ -1,0 +1,108 @@
+body {
+    margin: 0px;
+}
+
+.container {
+    margin: 0px;
+    background-color: white;
+    height: 100vh;
+    width: 100wh;
+    display: grid;
+    grid-template-columns: 60% 40%;
+    grid-template-areas: 
+    "introduction pic";
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.introduction {
+    display: flex;
+    justify-content: center;
+    grid-area: introduction;
+    display: grid;
+    grid-template-rows: 50% 30% 20%;
+    grid-template-areas: 
+    "name"
+    "intro"
+    "button";
+}
+.pic {
+    grid-area: pic;
+}
+.name {
+    font-size: 40px;
+    line-height: 90px;
+    font-family:'Roboto';
+}
+
+.intro {
+    color: #6B6868;
+    font-size: 30px;
+}
+
+.button {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.button1 {
+    grid-area: button1;
+    border: 1px solid black;
+    color: rgb(0, 0, 0);
+    background-color: white;
+    font-family: sans-serif;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    cursor: pointer;
+    width: 225px;
+    height: 84px;
+    font-weight: 700;
+}
+
+.button2 {
+    grid-area: button2;
+    box-sizing: border-box;
+
+    /* Auto layout */
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 50px;
+    gap: 10px;
+
+    width: 378px;
+    height: 84px;
+    
+    background: #000000;
+    border: 2px solid #000000;
+
+    color: white;
+    width: 378px;
+    height: 84px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 24px;
+    /* identical to box height, or 75% */
+
+
+    color: #FFFFFF;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    cursor: pointer;
+}
+.picture {
+    display: flex;
+    justify-content: flex-start;
+}
